@@ -44,3 +44,63 @@ print(pay)
 name ="Jennifer"
 #prints the characters btn e and e at the end
 print(name[1:-1])
+first_name = "Jojo"
+last_name ="Smith"
+message = first_name + '[' + last_name +']is a coder'
+msg =f"{first_name} [{last_name}] is a coder"
+print(message)
+print(msg)
+#number of characters in a variable
+print(len(first_name))
+#upper for turning a string to capital letters
+print(first_name.upper())
+#lower for turning a string to lower letters
+
+print(first_name.lower())
+#find helps allocate the index of the string
+print(first_name.find("J"))
+care =" Try looking for help"
+aim = care.title()
+#replaces a string
+print(care.replace("help","aim"))
+#in as a boolean value
+
+print("Help" in care)
+print(aim)
+x =10+3*2
+
+print(x)
+x =(2+3)*10-3
+
+print(x)
+x = 2.9
+# round ..makes yr value an integer by rounding off
+print(round(x))
+x = -4.5
+#gives you the exact value
+print(abs(x))
+import math
+print(math.ceil(2.9))
+
+print(math.floor(2.9))
+is_hot =False
+is_cold =True
+
+if is_hot:
+    print("It's a hot day")
+    print("Stay warm")
+elif is_cold:
+    print("It's a cold day")
+    print("Stay cool")    
+else:
+    print("its a lovely day")    
+
+
+price = 1000000
+has_goodcredit = False
+if has_goodcredit:
+    down_payment = 0.1 * price
+else:
+    down_payment = 0.2 * price     
+print(f"Down payment:{down_payment}")       
+

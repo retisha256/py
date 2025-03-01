@@ -7,6 +7,8 @@ else:
 if numb%2 ==0:
     print('even number')
 else:
-    print('odd number')         
-    
+    print('odd number')      
+   # a named bock code is called a function   
+numbers =[10,20,30,40,50,60]
+    def
  
