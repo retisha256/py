@@ -102,5 +102,6 @@ if has_goodcredit:
     down_payment = 0.1 * price
 else:
     down_payment = 0.2 * price     
-print(f"Down payment:{down_payment}")       
-
+print(f"Down payment:{down_payment}")   
+x = "Welcome home"
+print(x.strip())
