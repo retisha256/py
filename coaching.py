@@ -104,4 +104,51 @@ else:
     down_payment = 0.2 * price     
 print(f"Down payment:{down_payment}")   
 x = "Welcome home"
+#strip method removes unnecessary space in yr code
 print(x.strip())
+#capturing the weight from the users
+weight = int(input("weight:")) 
+#capturing the units from the users either in kgs or pounds
+units = input("(L)bs or (K)g: ")
+#applying conditions to our code so as to execute our calculations
+if units =="K":
+ print(f"You are {weight*0.45}pounds" )
+else:
+    print(f"{weight}K(g)")
+
+#while loop in python
+i = 1
+while i<=5:
+    i += 1  
+#'*' is used to create multiple astaricks in our code    
+    print("*"*i)
+#guessing game
+secret = 6
+guess_count = 0
+guess_limit = 3
+while guess_count<guess_limit:
+    guess = int(input('Guess:'))
+    guess_count += 1
+    if guess == secret:
+        print("You won !")
+    else:
+        print("Better luck next time")    
+
+command = ""
+"""while True:
+   command = input(">").lower()
+   if command== "start":
+       print("car started...")
+   elif command == "stop":
+       print("Car stopped.")
+   elif command == "help":
+       print("""""
+            # start -to start the car
+             #stop -to stop the car
+             #quit- to quit
+            # """)
+
+   #elif command =="quit":
+       #break 
+   #else:    
+      # print("sorry I don't understand this")"""
