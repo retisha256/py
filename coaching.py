@@ -135,7 +135,7 @@ while guess_count<guess_limit:
         print("Better luck next time")    
 
 command = ""
-"""while True:
+while True:
    command = input(">").lower()
    if command== "start":
        print("car started...")
@@ -143,12 +143,13 @@ command = ""
        print("Car stopped.")
    elif command == "help":
        print("""""
-            # start -to start the car
-             #stop -to stop the car
-             #quit- to quit
-            # """)
+            start -to start the car
+             stop -to stop the car
+             quit- to quit
+            """)
 
-   #elif command =="quit":
-       #break 
-   #else:    
-      # print("sorry I don't understand this")"""
+   elif command =="quit":
+       break 
+   else:    
+      print("sorry I don't understand this")
+      
